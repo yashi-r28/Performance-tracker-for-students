@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Performance Tracker Extension",
+    "version": "1.0",
+    "description": "Tracks the learning progress of user.",
+    "action": {
+      "default_title": "Performance Tracker"
+    },
+    "background": {
+     "service_worker": "background.js"
+    },
+    "permissions": ["storage","tabs"],
+    "host_permissions": ["*://*/*"]
+  }
+  
